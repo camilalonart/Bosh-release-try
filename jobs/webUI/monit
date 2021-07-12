@@ -1,0 +1,5 @@
+check process web_ui
+  with pidfile /var/vcap/sys/run/webUI/pid
+  start program "/var/vcap/jobs/webUI/bin/ctl start"
+  stop program "/var/vcap/jobs/webUI/bin/ctl stop"
+  group vcap
