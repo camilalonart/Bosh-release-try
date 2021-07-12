@@ -1,5 +1,4 @@
-name: app
+blobstore_secret: 'does-not-matter'
 blobstore:
-  provider: local
-  options:
+  local:
     blobstore_path: /tmp/app-blobs

@@ -4,6 +4,10 @@ name: webUI
 templates:
   ctl.erb: bin/ctl
 
-packages: []
+packages:
+- ruby_1.9.3
 
-properties: {}
+properties:
+  port:
+    description: Port that webUI app listens on
+    default: 80
